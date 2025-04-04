@@ -32,9 +32,9 @@ When we set any other value for the flag, or omit it entirely, we should expect 
 * The ID of the story
 * The date it was added
 
-We're extracting the ID for two reasons: first to prevent double-counting. The API shouldn't allow this, since navigating to the next page specifies which ID to begin from, but I don't want to rely on mechanisms outside the page to reinforce my logic. The second reason we've collected the ID is to let us exit when we've validated 100 rows. If we fetch and process a full page of results every time, we're going to end up with a multiple of 30, which is not what we want. And of course we extracting the dates to do the actual comparisons.
+We're extracting the ID for two reasons: first to prevent double-counting. The API shouldn't allow this, since navigating to the next page specifies which ID to begin from, but I don't want to rely on mechanisms outside the page to reinforce my logic. The second reason we've collected the ID is to let us exit when we've validated 100 rows. If we fetch and process a full page of results every time, we're going to end up with a multiple of 30, which is not what we want. And of course we're extracting the dates to do the actual comparisons.
 
-Because we expect the dates to monotonically decrease, we don't need to store a lot of them in memory, we just need the date from the current row, and the previous row to validate it against. As long as the monotoncially decreasing condition holds for every pair of rows, we can be sure the entire set is ordered correctly.
+Because we expect the dates to monotonically decrease, we don't need to store a lot of them in memory, we just need the date from the current row, and the previous row to validate it against. As long as the monotonically decreasing condition holds for every pair of rows, we can be sure the entire set is ordered correctly.
 
 Last, we use the set of IDs we've evaluated to determine when we can stop testing. When we reach 100 stories evaluated, we are done.
 
