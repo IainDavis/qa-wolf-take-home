@@ -1,13 +1,18 @@
 # Iain Davis -- QA Wolf testing solution
 
-|          |                                            |
-|----------|--------------------------------------------|
-| phone    | +61 451363200                              |
-| email    | iain@iaindavis.dev                         |
-| linkedin | https://www.linkedin.com/in/iaindavis-dev/ |
+|                        |                                            |
+|------------------------|--------------------------------------------|
+| phone                  | +61 451363200                              |
+| email                  | iain@iaindavis.dev                         |
+| linkedin               | https://www.linkedin.com/in/iaindavis-dev/ |
+| github (public facing) | https://github.com/IainDavis-dev           |
+
+See my [Docodylus](https://github.com/IainDavis-dev/docodylus) documentation component library project on github!
+
 
 * [resume](./docs/2024_Davis_Iain_Res.pdf)
 * [Loom video](https://www.loom.com/share/a65c02c09f52482ea617dcbc3d459bb9?sid=05a89d47-d6b3-460e-a2f6-913e48d02969)
+* [Solution repository](https://github.com/iaindavis/qa-wolf-take-home)
 
 ---
 
