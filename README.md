@@ -1,3 +1,27 @@
+## Iain Davis -- QA Wolf testing solution
+
+|       |                    |
+|-------|--------------------|
+| phone | +61 451363200      |
+| email | iain@iaindavis.dev |
+
+[resume](./docs/2024_Davis_Iain_Res.pdf)
+
+[Loom video](https://www.loom.com/share/a65c02c09f52482ea617dcbc3d459bb9?sid=05a89d47-d6b3-460e-a2f6-913e48d02969)
+
+## About Me
+I'm a Software Engineer. I worked for Intuit from 2019, first in San Diego, and then in Sydney, up to 2024 when I was laid off as part of Intuit's restructuring that elminated all software development positions in Australia. I've worked across the stack. My early experience was in Java/Spring Boot, and after I relocated to Australia, that changed to almost exclusively JavaScript/TypeScript, both in the browser and in Node environments.
+
+I'm an Australian permanent resident, and a United States citizen. I'm currently in California, but I expect to return to Australia when I have employment. I'd be happy to discuss this further.
+
+## About the Solution
+The solution includes the use of an environment variable, VERIFY_FALSIFIABLE. When this value is set to `"true"`, as follows:
+```sh
+VERIFY_FALSIFIABLE=true node index.js
+```
+the script will fetch a data set that we should expect to _fail_ the test (specifically the Hacker News homepage, which has an equivalent structure, but we can generally expect the rows not to be sorted by date). For all other values of `VERIFY_FALSIFIABLE` (including no value), the test will run as normal and should pass.
+
+<!--
 # 🐺 QA Wolf Take Home Assignment
 
 Welcome to the QA Wolf take home assignment for our [QA Engineer](https://www.task-wolf.com/apply-qae) role! We appreciate your interest and look forward to seeing what you come up with.
@@ -53,3 +77,4 @@ This means whether we hire you is based on how you do during our interview proce
 ### How can I help my application stand out?
 
 We've found that our best hires have been the most enthusiastic throughout our process. If you are very excited about working here, please feel free to go above and beyond on this assignment.
+-->
