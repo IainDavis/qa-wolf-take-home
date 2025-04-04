@@ -21,6 +21,10 @@ I'm a Software Engineer. I worked for Intuit from 2019, first in San Diego, and 
 
 I'm an Australian permanent resident, and a United States citizen. I'm currently in California, but I expect to return to Australia when I have employment. I'd be happy to discuss this further.
 
+Worth noting: this is not my first experience with E2E tests, but I have relatively little experience with Playwright. Intuit's preferred solution is Cypress, and I've used that a good deal more. They are significantly different tools, and I think this demonstrates my adaptability and that I am a quick learner.
+
+By way of full disclosure, I have used AI in the course of this solution, mainly to accelerate my learning of the Playwright tool, and also for troubleshooting, as a sounding board for ideas, and as validation for assumptions. I want to be clear and up front. Feel free to review the [transcript of my AI discussions](https://chatgpt.com/share/67ef528c-1200-8000-9b01-cdc3ab2a6e37)
+
 ## About the Solution
 The solution includes the use of an environment variable, VERIFY_FALSIFIABLE. When this value is set to `"true"`, as follows:
 ```sh
